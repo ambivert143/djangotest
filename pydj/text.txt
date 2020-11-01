@@ -1,0 +1,15 @@
+django-admin startproject newproject
+
+cd.. newproject
+
+python manage.py startapp newapp
+
+python manage.py reunserver
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+{% if c.id == categoryId %}selected{% endif %} ---> tìm kiếm bằng tay
